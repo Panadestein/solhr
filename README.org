@@ -1,0 +1,3 @@
+#+TITLE: Selected solutions to HR problems
+
+My C++ solutions to some of the problems in HR. 
