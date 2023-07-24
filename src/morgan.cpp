@@ -62,7 +62,7 @@ string morganAndString(string a, string b) {
       lexi_minimal += b[j++];
     } else {
       int x = i, y = j;
-      char ai = a[i], bj = b[j];
+      char ai = a[i];
       for (; x < lena && y < lenb; x++, y++) {
         if (a[x] != b[y]) {
           break;
@@ -71,7 +71,6 @@ string morganAndString(string a, string b) {
           i = x;
           j = y;
           ai = a[i];
-          bj = b[j];
         }
       }
 
@@ -117,9 +116,7 @@ int main() {
     for (int i = 0; i < num_cases; i++) {
       string a, b;
       input >> a >> b;
-      if (i == num_cases - 1) {
-        output << morganAndString(a, b) << "\n";
-      }
+      output << morganAndString(a, b) << "\n";
     }
 
     input.close();
