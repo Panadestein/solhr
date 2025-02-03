@@ -1,3 +1,6 @@
-#+TITLE: Selected solutions to HR problems
+#+TITLE: Competitive Programming Solutions
 
-My C++ solutions to some of the problems in HR. 
+This repository contains my solutions to competitive programming problems in different
+online judges. The solutions are written in C++ mostly[fn:1], and some ocassional Python.
+
+[fn:1] Well, it is really C with the subset of C++ that I find useful in CP.
